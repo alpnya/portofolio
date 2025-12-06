@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio CV - Nama Anda</title>
+      <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
+    
     <nav class="navbar">
         <div class="container">
             <div class="logo">
@@ -23,7 +24,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
@@ -35,7 +35,6 @@
         </div>
     </section>
 
-    <!-- About Me Section -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -130,7 +129,6 @@ With a curious mindset and a dedication to personal growth, I’m always excited
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
@@ -199,7 +197,6 @@ With a curious mindset and a dedication to personal growth, I’m always excited
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Contact Me</h2>
@@ -209,27 +206,27 @@ With a curious mindset and a dedication to personal growth, I’m always excited
                         <div class="contact-icon">📧</div>
                         <div>
                             <h4>Email</h4>
-                            <p>email@example.com</p>
+                            <p>alpyansya2403gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">📱</div>
                         <div>
                             <h4>Telepon</h4>
-                            <p>+62 812-3456-7890</p>
+                            <p>+62 812-9090 3073</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">📍</div>
                         <div>
                             <h4>Lokasi</h4>
-                            <p>Bandung, Jawa Barat</p>
+                            <p>Depok,Jawa barat</p>
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#" class="social-link">LinkedIn</a>
-                        <a href="#" class="social-link">GitHub</a>
-                        <a href="#" class="social-link">Instagram</a>
+                    <i data-feather="instagram"></i>
+                    <i data-feather="github"></i>
+                    <i data-feather="linkedin"></i> 
                     </div>
                 </div>
                 <form class="contact-form">
@@ -245,9 +242,14 @@ With a curious mindset and a dedication to personal growth, I’m always excited
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 [Nama Anda]. All rights reserved.</p>
+            <p>&copy; 2025 Alpyan. All rights reserved.</p>
         </div>
     </footer>
+
+    
+    <script>
+      feather.replace();
+    </script>
 
     <script>
         // Smooth scrolling
@@ -261,7 +263,7 @@ With a curious mindset and a dedication to personal growth, I’m always excited
             });
         });
 
-        // Navbar background on scroll
+        
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
